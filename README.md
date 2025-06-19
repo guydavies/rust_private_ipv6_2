@@ -33,4 +33,4 @@ The compiled binary will be available at `target/release/private_ipv6_2`.
 ## Author
 
 Originally written in Go by Guy Davies (aguydavies@gmail.com)
-Ported to Rust using  by Guy Davies (aguydavies@gmail.com)
+Ported to Rust using Copilot by Guy Davies (aguydavies@gmail.com)
