@@ -1,0 +1,12 @@
+[package]
+name = "private_ipv6_2"
+version = "0.1.0"
+edition = "2021"
+authors = ["Guy Davies <aguydavies@gmail.com>"]
+description = "Generate a random IPv6 private CIDR (/64)"
+
+[dependencies]
+rand = "0.8.5"
+
+[dev-dependencies]
+proptest = "1.3.1"
