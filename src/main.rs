@@ -2,7 +2,7 @@ use rand::Rng;
 
 /// Generate a random hexadecimal string with a value up to the maximum provided
 fn generate_hex(max_hex_value_as_int: u16) -> String {
-    let random_value = rand::thread_rng().gen_range(0..=max_hex_value_as_int);
+    let random_value = rand::rng().random_range(0..=max_hex_value_as_int);
     format!("{:x}", random_value)
 }
 
